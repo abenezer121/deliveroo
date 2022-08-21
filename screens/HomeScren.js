@@ -51,19 +51,22 @@ const HomeScreen = () => {
                     <Categories/>
                     {/* featured rows */}
                     <FeaturedRow
-                        id= "1"
+                        id={1}
+                        categoryId = {1}
                         title="Featured"
                         description="Pain placements from our partners"
                         featuredCategory="featured" />
                     
                     <FeaturedRow
-                        id= "2"
+                        id={2}
+                         categoryId = {2}
                         title="Tasty Discounts"
                         description="Everyone's been enjoying these juicy discounts!"
                         featuredCategory="discounts" />
                     
                     <FeaturedRow
-                        id= "3"
+                        id={3}
+                        categoryId = {3}
                         title="Offers near you"
                         description="Why not support your local restaurant tonight!"
                         featuredCategory = "offers"/>
